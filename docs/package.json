@@ -1,0 +1,25 @@
+{
+  "name": "@jiketu/docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.17.1",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.13",
+    "tailwindcss": "^4.1.13",
+    "vitepress": "^1.6.4"
+  },
+  "devDependencies": {
+    "@shikijs/vitepress-twoslash": "^3.13.0",
+    "sass": "^1.93.2",
+    "vue": "^3.5.22"
+  }
+}
